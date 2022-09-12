@@ -6,6 +6,7 @@
 	"website": "http://video.hoangweb.com",
 	"stack": "container",
 	"image": "ghcr.io/hoangsoft90/videohw:latest",
+	"addons":["heroku-postgresql"],
 	"env": {
 	    "JOB_NAME": {
 	      "description": "",
