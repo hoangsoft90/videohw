@@ -1,0 +1,15 @@
+{
+	"name": "heroku-videohw-cron",
+	"description": "A cron job for video.hoangweb.com",
+	"repository": "https://github.com/hoangsoft90/videohw",
+	"logo": "https://www.hoangweb.com/wp-content/uploads/2017/08/cropped-logo-hoang-web.png",
+	"website": "http://video.hoangweb.com",
+	"stack": "container",
+	"image": "ghcr.io/hoangsoft90/videohw:latest",
+	"env": {
+	    "JOB_NAME": {
+	      "description": "",
+	      "value": "play_video"
+	    }
+	}
+}
